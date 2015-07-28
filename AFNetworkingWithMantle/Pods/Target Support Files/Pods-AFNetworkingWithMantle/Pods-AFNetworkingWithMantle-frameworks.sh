@@ -53,12 +53,14 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-AFNetworkingWithMantle/AFNetworking.framework'
+  install_framework 'Pods-AFNetworkingWithMantle/MBProgressHUD.framework'
   install_framework 'Pods-AFNetworkingWithMantle/Mantle.framework'
   install_framework 'Pods-AFNetworkingWithMantle/Reachability.framework'
   install_framework 'Pods-AFNetworkingWithMantle/SVProgressHUD.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-AFNetworkingWithMantle/AFNetworking.framework'
+  install_framework 'Pods-AFNetworkingWithMantle/MBProgressHUD.framework'
   install_framework 'Pods-AFNetworkingWithMantle/Mantle.framework'
   install_framework 'Pods-AFNetworkingWithMantle/Reachability.framework'
   install_framework 'Pods-AFNetworkingWithMantle/SVProgressHUD.framework'

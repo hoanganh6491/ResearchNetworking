@@ -10,5 +10,12 @@
 #define AFNetworkingWithMantle_AFNetworkingWithMantle_Header_h
 
 #import "AFNetworking.h"
+#import "AppMacro.h"
+#import "SVProgressHUD.h"
+//API
+#import "APIBusiness.h"
+
+//Data Models
+#import "ResearchNetworkingDataModels.h"
 
 #endif

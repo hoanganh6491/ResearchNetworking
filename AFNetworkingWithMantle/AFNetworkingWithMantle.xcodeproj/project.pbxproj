@@ -9,11 +9,26 @@
 /* Begin PBXBuildFile section */
 		53260DA11B670AED00F6FB9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53260DA01B670AED00F6FB9B /* Images.xcassets */; };
 		53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DCC1B670DF600F6FB9B /* APIConstants.swift */; };
-		53260DD01B670E2E00F6FB9B /* APIControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DCF1B670E2E00F6FB9B /* APIControllers.swift */; };
 		53260DD61B6711B600F6FB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DD51B6711B600F6FB9B /* AppDelegate.swift */; };
 		53260DD81B6711C100F6FB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DD71B6711C100F6FB9B /* ViewController.swift */; };
 		53260DDA1B6711C900F6FB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53260DD91B6711C900F6FB9B /* Main.storyboard */; };
 		53260DDC1B6711D300F6FB9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53260DDB1B6711D300F6FB9B /* LaunchScreen.xib */; };
+		5326101E1B6712DD00F6FB9B /* ApiBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 53260F2A1B6712DD00F6FB9B /* ApiBusiness.m */; };
+		5326101F1B6712DD00F6FB9B /* MTLModifiedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53260F2F1B6712DD00F6FB9B /* MTLModifiedModel.m */; };
+		532610421B6712DD00F6FB9B /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53260F991B6712DD00F6FB9B /* BaseModel.m */; };
+		532610581B6712DD00F6FB9B /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53260FD81B6712DD00F6FB9B /* BaseRequest.m */; };
+		5326106C1B6712DD00F6FB9B /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 532610141B6712DD00F6FB9B /* BaseResponse.m */; };
+		5326106D1B6712DD00F6FB9B /* ApiHeaderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 532610171B6712DD00F6FB9B /* ApiHeaderUtil.m */; };
+		5326106E1B6712DD00F6FB9B /* APIParserUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 532610191B6712DD00F6FB9B /* APIParserUtil.m */; };
+		5326106F1B6712DD00F6FB9B /* BaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5326101B1B6712DD00F6FB9B /* BaseUtil.m */; };
+		532610701B6712DD00F6FB9B /* PMParserUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5326101D1B6712DD00F6FB9B /* PMParserUtil.m */; };
+		5326107A1B67137E00F6FB9B /* ResearchNetworkingItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 532610751B67137E00F6FB9B /* ResearchNetworkingItems.m */; };
+		5326107B1B67137E00F6FB9B /* ResearchNetworkingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 532610771B67137E00F6FB9B /* ResearchNetworkingModel.m */; };
+		5326107C1B67137E00F6FB9B /* ResearchNetworkingMoreItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 532610791B67137E00F6FB9B /* ResearchNetworkingMoreItems.m */; };
+		532610801B6716BB00F6FB9B /* APIControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326107F1B6716BB00F6FB9B /* APIControllers.swift */; };
+		532610831B67195A00F6FB9B /* ResearchNetworkingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532610821B67195A00F6FB9B /* ResearchNetworkingRequest.swift */; };
+		532610851B67247E00F6FB9B /* APIResponseParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532610841B67247E00F6FB9B /* APIResponseParse.swift */; };
+		532610881B67292500F6FB9B /* ResearchNetworkingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 532610871B67292500F6FB9B /* ResearchNetworkingResponse.m */; };
 		E33D26CFA89A0DB311CB75DB /* Pods_AFNetworkingWithMantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F6F77201F711788B4CFF8E /* Pods_AFNetworkingWithMantle.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -22,15 +37,45 @@
 		53260D941B670AED00F6FB9B /* AFNetworkingWithMantle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingWithMantle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53260D981B670AED00F6FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53260DA01B670AED00F6FB9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		53260DAE1B670AED00F6FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53260DAF1B670AED00F6FB9B /* AFNetworkingWithMantleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingWithMantleTests.swift; sourceTree = "<group>"; };
 		53260DC91B670DCE00F6FB9B /* AFNetworkingWithMantle-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingWithMantle-Header.h"; sourceTree = "<group>"; };
 		53260DCC1B670DF600F6FB9B /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
-		53260DCF1B670E2E00F6FB9B /* APIControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIControllers.swift; sourceTree = "<group>"; };
 		53260DD51B6711B600F6FB9B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppDelegate/AppDelegate.swift; sourceTree = "<group>"; };
 		53260DD71B6711C100F6FB9B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Internal/ClassViewControllers/ViewController.swift; sourceTree = "<group>"; };
 		53260DD91B6711C900F6FB9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Internal/InterfaceBuilder/Storyboard/Main.storyboard; sourceTree = "<group>"; };
 		53260DDB1B6711D300F6FB9B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Internal/InterfaceBuilder/Xibs/LaunchScreen.xib; sourceTree = "<group>"; };
+		53260F291B6712DD00F6FB9B /* ApiBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiBusiness.h; sourceTree = "<group>"; };
+		53260F2A1B6712DD00F6FB9B /* ApiBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiBusiness.m; sourceTree = "<group>"; };
+		53260F2C1B6712DD00F6FB9B /* ApiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConstant.h; sourceTree = "<group>"; };
+		53260F2D1B6712DD00F6FB9B /* APIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIMacro.h; sourceTree = "<group>"; };
+		53260F2E1B6712DD00F6FB9B /* MTLModifiedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLModifiedModel.h; sourceTree = "<group>"; };
+		53260F2F1B6712DD00F6FB9B /* MTLModifiedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLModifiedModel.m; sourceTree = "<group>"; };
+		53260F981B6712DD00F6FB9B /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		53260F991B6712DD00F6FB9B /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		53260FD71B6712DD00F6FB9B /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		53260FD81B6712DD00F6FB9B /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		532610131B6712DD00F6FB9B /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		532610141B6712DD00F6FB9B /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		532610161B6712DD00F6FB9B /* ApiHeaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiHeaderUtil.h; sourceTree = "<group>"; };
+		532610171B6712DD00F6FB9B /* ApiHeaderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiHeaderUtil.m; sourceTree = "<group>"; };
+		532610181B6712DD00F6FB9B /* APIParserUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIParserUtil.h; sourceTree = "<group>"; };
+		532610191B6712DD00F6FB9B /* APIParserUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIParserUtil.m; sourceTree = "<group>"; };
+		5326101A1B6712DD00F6FB9B /* BaseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUtil.h; sourceTree = "<group>"; };
+		5326101B1B6712DD00F6FB9B /* BaseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUtil.m; sourceTree = "<group>"; };
+		5326101C1B6712DD00F6FB9B /* PMParserUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMParserUtil.h; sourceTree = "<group>"; };
+		5326101D1B6712DD00F6FB9B /* PMParserUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMParserUtil.m; sourceTree = "<group>"; };
+		532610731B67137E00F6FB9B /* ResearchNetworkingDataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchNetworkingDataModels.h; sourceTree = "<group>"; };
+		532610741B67137E00F6FB9B /* ResearchNetworkingItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchNetworkingItems.h; sourceTree = "<group>"; };
+		532610751B67137E00F6FB9B /* ResearchNetworkingItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchNetworkingItems.m; sourceTree = "<group>"; };
+		532610761B67137E00F6FB9B /* ResearchNetworkingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchNetworkingModel.h; sourceTree = "<group>"; };
+		532610771B67137E00F6FB9B /* ResearchNetworkingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchNetworkingModel.m; sourceTree = "<group>"; };
+		532610781B67137E00F6FB9B /* ResearchNetworkingMoreItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchNetworkingMoreItems.h; sourceTree = "<group>"; };
+		532610791B67137E00F6FB9B /* ResearchNetworkingMoreItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchNetworkingMoreItems.m; sourceTree = "<group>"; };
+		5326107E1B6714F800F6FB9B /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMacro.h; path = External/CommonUtils/AppMacro.h; sourceTree = "<group>"; };
+		5326107F1B6716BB00F6FB9B /* APIControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIControllers.swift; sourceTree = "<group>"; };
+		532610821B67195A00F6FB9B /* ResearchNetworkingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResearchNetworkingRequest.swift; sourceTree = "<group>"; };
+		532610841B67247E00F6FB9B /* APIResponseParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponseParse.swift; sourceTree = "<group>"; };
+		532610861B67292500F6FB9B /* ResearchNetworkingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchNetworkingResponse.h; sourceTree = "<group>"; };
+		532610871B67292500F6FB9B /* ResearchNetworkingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchNetworkingResponse.m; sourceTree = "<group>"; };
 		6D0E0F558A69BEE96AED2125 /* Pods-AFNetworkingWithMantle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.release.xcconfig"; sourceTree = "<group>"; };
 		C1CB08570D0A3B89A618E219 /* Pods-AFNetworkingWithMantle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				53260D961B670AED00F6FB9B /* AFNetworkingWithMantle */,
-				53260DAC1B670AED00F6FB9B /* AFNetworkingWithMantleTests */,
 				53260D951B670AED00F6FB9B /* Products */,
 				4FCF982656D4C78ABA8D4BB7 /* Pods */,
 				3BC7E3262FFD056ED1AFA055 /* Frameworks */,
@@ -87,8 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				53260DBC1B670CA600F6FB9B /* AppDelegate */,
-				53260DBB1B670C9B00F6FB9B /* Internal */,
 				53260DBA1B670C9200F6FB9B /* External */,
+				53260DBB1B670C9B00F6FB9B /* Internal */,
 				53260DA01B670AED00F6FB9B /* Images.xcassets */,
 				53260D971B670AED00F6FB9B /* Supporting Files */,
 			);
@@ -104,26 +148,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		53260DAC1B670AED00F6FB9B /* AFNetworkingWithMantleTests */ = {
-			isa = PBXGroup;
-			children = (
-				53260DAF1B670AED00F6FB9B /* AFNetworkingWithMantleTests.swift */,
-				53260DAD1B670AED00F6FB9B /* Supporting Files */,
-			);
-			path = AFNetworkingWithMantleTests;
-			sourceTree = "<group>";
-		};
-		53260DAD1B670AED00F6FB9B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				53260DAE1B670AED00F6FB9B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		53260DBA1B670C9200F6FB9B /* External */ = {
 			isa = PBXGroup;
 			children = (
+				5326107D1B6714AD00F6FB9B /* CommonUtils */,
 				53260DC31B670D5500F6FB9B /* API */,
 			);
 			name = External;
@@ -149,11 +177,8 @@
 		53260DC31B670D5500F6FB9B /* API */ = {
 			isa = PBXGroup;
 			children = (
-				53260DCE1B670E2400F6FB9B /* APIController */,
+				53260F271B6712DD00F6FB9B /* APIBase */,
 				53260DC41B670D5500F6FB9B /* APIConstants */,
-				53260DC61B670D5500F6FB9B /* APIModels */,
-				53260DC71B670D5500F6FB9B /* APIRequests */,
-				53260DC81B670D5500F6FB9B /* APIResponses */,
 			);
 			name = API;
 			path = External/API;
@@ -167,33 +192,13 @@
 			path = APIConstants;
 			sourceTree = "<group>";
 		};
-		53260DC61B670D5500F6FB9B /* APIModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APIModels;
-			sourceTree = "<group>";
-		};
-		53260DC71B670D5500F6FB9B /* APIRequests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APIRequests;
-			sourceTree = "<group>";
-		};
-		53260DC81B670D5500F6FB9B /* APIResponses */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APIResponses;
-			sourceTree = "<group>";
-		};
 		53260DCE1B670E2400F6FB9B /* APIController */ = {
 			isa = PBXGroup;
 			children = (
-				53260DCF1B670E2E00F6FB9B /* APIControllers.swift */,
+				5326107F1B6716BB00F6FB9B /* APIControllers.swift */,
 			);
-			path = APIController;
+			name = APIController;
+			path = ../APIController;
 			sourceTree = "<group>";
 		};
 		53260DD11B67112600F6FB9B /* InterfaceBuilder */ = {
@@ -227,6 +232,117 @@
 				53260DD71B6711C100F6FB9B /* ViewController.swift */,
 			);
 			name = ClassViewControllers;
+			sourceTree = "<group>";
+		};
+		53260F271B6712DD00F6FB9B /* APIBase */ = {
+			isa = PBXGroup;
+			children = (
+				53260DCE1B670E2400F6FB9B /* APIController */,
+				53260F281B6712DD00F6FB9B /* Business */,
+				53260F2B1B6712DD00F6FB9B /* Common */,
+				53260F301B6712DD00F6FB9B /* Models */,
+				53260FD01B6712DD00F6FB9B /* Request */,
+				532610121B6712DD00F6FB9B /* Response */,
+				532610151B6712DD00F6FB9B /* Util */,
+			);
+			path = APIBase;
+			sourceTree = "<group>";
+		};
+		53260F281B6712DD00F6FB9B /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				53260F291B6712DD00F6FB9B /* ApiBusiness.h */,
+				53260F2A1B6712DD00F6FB9B /* ApiBusiness.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		53260F2B1B6712DD00F6FB9B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				53260F2C1B6712DD00F6FB9B /* ApiConstant.h */,
+				53260F2D1B6712DD00F6FB9B /* APIMacro.h */,
+				53260F2E1B6712DD00F6FB9B /* MTLModifiedModel.h */,
+				53260F2F1B6712DD00F6FB9B /* MTLModifiedModel.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		53260F301B6712DD00F6FB9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				532610721B67137E00F6FB9B /* ResearchNetworkingModel */,
+				53260F981B6712DD00F6FB9B /* BaseModel.h */,
+				53260F991B6712DD00F6FB9B /* BaseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53260FD01B6712DD00F6FB9B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				532610811B67192400F6FB9B /* ResearchNetworkingRequest */,
+				53260FD71B6712DD00F6FB9B /* BaseRequest.h */,
+				53260FD81B6712DD00F6FB9B /* BaseRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		532610121B6712DD00F6FB9B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				532610131B6712DD00F6FB9B /* BaseResponse.h */,
+				532610141B6712DD00F6FB9B /* BaseResponse.m */,
+				532610841B67247E00F6FB9B /* APIResponseParse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		532610151B6712DD00F6FB9B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				532610161B6712DD00F6FB9B /* ApiHeaderUtil.h */,
+				532610171B6712DD00F6FB9B /* ApiHeaderUtil.m */,
+				532610181B6712DD00F6FB9B /* APIParserUtil.h */,
+				532610191B6712DD00F6FB9B /* APIParserUtil.m */,
+				5326101A1B6712DD00F6FB9B /* BaseUtil.h */,
+				5326101B1B6712DD00F6FB9B /* BaseUtil.m */,
+				5326101C1B6712DD00F6FB9B /* PMParserUtil.h */,
+				5326101D1B6712DD00F6FB9B /* PMParserUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		532610721B67137E00F6FB9B /* ResearchNetworkingModel */ = {
+			isa = PBXGroup;
+			children = (
+				532610861B67292500F6FB9B /* ResearchNetworkingResponse.h */,
+				532610871B67292500F6FB9B /* ResearchNetworkingResponse.m */,
+				532610731B67137E00F6FB9B /* ResearchNetworkingDataModels.h */,
+				532610741B67137E00F6FB9B /* ResearchNetworkingItems.h */,
+				532610751B67137E00F6FB9B /* ResearchNetworkingItems.m */,
+				532610761B67137E00F6FB9B /* ResearchNetworkingModel.h */,
+				532610771B67137E00F6FB9B /* ResearchNetworkingModel.m */,
+				532610781B67137E00F6FB9B /* ResearchNetworkingMoreItems.h */,
+				532610791B67137E00F6FB9B /* ResearchNetworkingMoreItems.m */,
+			);
+			path = ResearchNetworkingModel;
+			sourceTree = "<group>";
+		};
+		5326107D1B6714AD00F6FB9B /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5326107E1B6714F800F6FB9B /* AppMacro.h */,
+			);
+			name = CommonUtils;
+			sourceTree = "<group>";
+		};
+		532610811B67192400F6FB9B /* ResearchNetworkingRequest */ = {
+			isa = PBXGroup;
+			children = (
+				532610821B67195A00F6FB9B /* ResearchNetworkingRequest.swift */,
+			);
+			name = ResearchNetworkingRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,10 +466,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532610801B6716BB00F6FB9B /* APIControllers.swift in Sources */,
+				532610581B6712DD00F6FB9B /* BaseRequest.m in Sources */,
+				5326107A1B67137E00F6FB9B /* ResearchNetworkingItems.m in Sources */,
+				5326107C1B67137E00F6FB9B /* ResearchNetworkingMoreItems.m in Sources */,
 				53260DD81B6711C100F6FB9B /* ViewController.swift in Sources */,
-				53260DD01B670E2E00F6FB9B /* APIControllers.swift in Sources */,
+				532610831B67195A00F6FB9B /* ResearchNetworkingRequest.swift in Sources */,
+				5326107B1B67137E00F6FB9B /* ResearchNetworkingModel.m in Sources */,
+				532610851B67247E00F6FB9B /* APIResponseParse.swift in Sources */,
+				5326101E1B6712DD00F6FB9B /* ApiBusiness.m in Sources */,
+				5326101F1B6712DD00F6FB9B /* MTLModifiedModel.m in Sources */,
+				5326106F1B6712DD00F6FB9B /* BaseUtil.m in Sources */,
+				532610701B6712DD00F6FB9B /* PMParserUtil.m in Sources */,
+				5326106D1B6712DD00F6FB9B /* ApiHeaderUtil.m in Sources */,
 				53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */,
+				532610421B6712DD00F6FB9B /* BaseModel.m in Sources */,
+				5326106E1B6712DD00F6FB9B /* APIParserUtil.m in Sources */,
+				532610881B67292500F6FB9B /* ResearchNetworkingResponse.m in Sources */,
 				53260DD61B6711B600F6FB9B /* AppDelegate.swift in Sources */,
+				5326106C1B6712DD00F6FB9B /* BaseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +531,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AFNetworkingWithMantle/AFNetworkingWithMantle-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -437,6 +569,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AFNetworkingWithMantle/AFNetworkingWithMantle-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -449,6 +582,7 @@
 				INFOPLIST_FILE = AFNetworkingWithMantle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -460,6 +594,7 @@
 				INFOPLIST_FILE = AFNetworkingWithMantle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods\"/**";
 			};
 			name = Release;
 		};
