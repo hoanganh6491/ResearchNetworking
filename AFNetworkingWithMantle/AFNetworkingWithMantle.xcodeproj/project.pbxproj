@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		53260DA11B670AED00F6FB9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53260DA01B670AED00F6FB9B /* Images.xcassets */; };
-		53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DCC1B670DF600F6FB9B /* APIConstants.swift */; };
 		53260DD61B6711B600F6FB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DD51B6711B600F6FB9B /* AppDelegate.swift */; };
 		53260DD81B6711C100F6FB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DD71B6711C100F6FB9B /* ViewController.swift */; };
 		53260DDA1B6711C900F6FB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53260DD91B6711C900F6FB9B /* Main.storyboard */; };
@@ -38,14 +37,12 @@
 		53260D981B670AED00F6FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53260DA01B670AED00F6FB9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53260DC91B670DCE00F6FB9B /* AFNetworkingWithMantle-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingWithMantle-Header.h"; sourceTree = "<group>"; };
-		53260DCC1B670DF600F6FB9B /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		53260DD51B6711B600F6FB9B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppDelegate/AppDelegate.swift; sourceTree = "<group>"; };
 		53260DD71B6711C100F6FB9B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Internal/ClassViewControllers/ViewController.swift; sourceTree = "<group>"; };
 		53260DD91B6711C900F6FB9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Internal/InterfaceBuilder/Storyboard/Main.storyboard; sourceTree = "<group>"; };
 		53260DDB1B6711D300F6FB9B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Internal/InterfaceBuilder/Xibs/LaunchScreen.xib; sourceTree = "<group>"; };
 		53260F291B6712DD00F6FB9B /* ApiBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiBusiness.h; sourceTree = "<group>"; };
 		53260F2A1B6712DD00F6FB9B /* ApiBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiBusiness.m; sourceTree = "<group>"; };
-		53260F2C1B6712DD00F6FB9B /* ApiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConstant.h; sourceTree = "<group>"; };
 		53260F2D1B6712DD00F6FB9B /* APIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIMacro.h; sourceTree = "<group>"; };
 		53260F2E1B6712DD00F6FB9B /* MTLModifiedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLModifiedModel.h; sourceTree = "<group>"; };
 		53260F2F1B6712DD00F6FB9B /* MTLModifiedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLModifiedModel.m; sourceTree = "<group>"; };
@@ -76,6 +73,7 @@
 		532610841B67247E00F6FB9B /* APIResponseParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponseParse.swift; sourceTree = "<group>"; };
 		532610861B67292500F6FB9B /* ResearchNetworkingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchNetworkingResponse.h; sourceTree = "<group>"; };
 		532610871B67292500F6FB9B /* ResearchNetworkingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchNetworkingResponse.m; sourceTree = "<group>"; };
+		532610891B67359D00F6FB9B /* ApiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConstant.h; sourceTree = "<group>"; };
 		6D0E0F558A69BEE96AED2125 /* Pods-AFNetworkingWithMantle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.release.xcconfig"; sourceTree = "<group>"; };
 		C1CB08570D0A3B89A618E219 /* Pods-AFNetworkingWithMantle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,7 +185,7 @@
 		53260DC41B670D5500F6FB9B /* APIConstants */ = {
 			isa = PBXGroup;
 			children = (
-				53260DCC1B670DF600F6FB9B /* APIConstants.swift */,
+				532610891B67359D00F6FB9B /* ApiConstant.h */,
 			);
 			path = APIConstants;
 			sourceTree = "<group>";
@@ -260,7 +258,6 @@
 		53260F2B1B6712DD00F6FB9B /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				53260F2C1B6712DD00F6FB9B /* ApiConstant.h */,
 				53260F2D1B6712DD00F6FB9B /* APIMacro.h */,
 				53260F2E1B6712DD00F6FB9B /* MTLModifiedModel.h */,
 				53260F2F1B6712DD00F6FB9B /* MTLModifiedModel.m */,
@@ -479,7 +476,6 @@
 				5326106F1B6712DD00F6FB9B /* BaseUtil.m in Sources */,
 				532610701B6712DD00F6FB9B /* PMParserUtil.m in Sources */,
 				5326106D1B6712DD00F6FB9B /* ApiHeaderUtil.m in Sources */,
-				53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */,
 				532610421B6712DD00F6FB9B /* BaseModel.m in Sources */,
 				5326106E1B6712DD00F6FB9B /* APIParserUtil.m in Sources */,
 				532610881B67292500F6FB9B /* ResearchNetworkingResponse.m in Sources */,
