@@ -12,20 +12,13 @@
 		53260D9F1B670AED00F6FB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53260D9D1B670AED00F6FB9B /* Main.storyboard */; };
 		53260DA11B670AED00F6FB9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53260DA01B670AED00F6FB9B /* Images.xcassets */; };
 		53260DA41B670AED00F6FB9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53260DA21B670AED00F6FB9B /* LaunchScreen.xib */; };
-		53260DB01B670AED00F6FB9B /* AFNetworkingWithMantleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DAF1B670AED00F6FB9B /* AFNetworkingWithMantleTests.swift */; };
+		53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DCC1B670DF600F6FB9B /* APIConstants.swift */; };
+		53260DD01B670E2E00F6FB9B /* APIControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DCF1B670E2E00F6FB9B /* APIControllers.swift */; };
+		E33D26CFA89A0DB311CB75DB /* Pods_AFNetworkingWithMantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F6F77201F711788B4CFF8E /* Pods_AFNetworkingWithMantle.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		53260DAA1B670AED00F6FB9B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 53260D8C1B670AED00F6FB9B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53260D931B670AED00F6FB9B;
-			remoteInfo = AFNetworkingWithMantle;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		10F6F77201F711788B4CFF8E /* Pods_AFNetworkingWithMantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworkingWithMantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53260D941B670AED00F6FB9B /* AFNetworkingWithMantle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingWithMantle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53260D981B670AED00F6FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53260D991B670AED00F6FB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,9 +26,13 @@
 		53260D9E1B670AED00F6FB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53260DA01B670AED00F6FB9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53260DA31B670AED00F6FB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		53260DA91B670AED00F6FB9B /* AFNetworkingWithMantleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingWithMantleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53260DAE1B670AED00F6FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53260DAF1B670AED00F6FB9B /* AFNetworkingWithMantleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingWithMantleTests.swift; sourceTree = "<group>"; };
+		53260DC91B670DCE00F6FB9B /* AFNetworkingWithMantle-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingWithMantle-Header.h"; sourceTree = "<group>"; };
+		53260DCC1B670DF600F6FB9B /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		53260DCF1B670E2E00F6FB9B /* APIControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIControllers.swift; sourceTree = "<group>"; };
+		6D0E0F558A69BEE96AED2125 /* Pods-AFNetworkingWithMantle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.release.xcconfig"; sourceTree = "<group>"; };
+		C1CB08570D0A3B89A618E219 /* Pods-AFNetworkingWithMantle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,25 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53260DA61B670AED00F6FB9B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E33D26CFA89A0DB311CB75DB /* Pods_AFNetworkingWithMantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BC7E3262FFD056ED1AFA055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10F6F77201F711788B4CFF8E /* Pods_AFNetworkingWithMantle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FCF982656D4C78ABA8D4BB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB08570D0A3B89A618E219 /* Pods-AFNetworkingWithMantle.debug.xcconfig */,
+				6D0E0F558A69BEE96AED2125 /* Pods-AFNetworkingWithMantle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		53260D8B1B670AED00F6FB9B = {
 			isa = PBXGroup;
 			children = (
 				53260D961B670AED00F6FB9B /* AFNetworkingWithMantle */,
 				53260DAC1B670AED00F6FB9B /* AFNetworkingWithMantleTests */,
 				53260D951B670AED00F6FB9B /* Products */,
+				4FCF982656D4C78ABA8D4BB7 /* Pods */,
+				3BC7E3262FFD056ED1AFA055 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				53260D941B670AED00F6FB9B /* AFNetworkingWithMantle.app */,
-				53260DA91B670AED00F6FB9B /* AFNetworkingWithMantleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,8 +86,9 @@
 		53260D961B670AED00F6FB9B /* AFNetworkingWithMantle */ = {
 			isa = PBXGroup;
 			children = (
-				53260D991B670AED00F6FB9B /* AppDelegate.swift */,
-				53260D9B1B670AED00F6FB9B /* ViewController.swift */,
+				53260DBC1B670CA600F6FB9B /* AppDelegate */,
+				53260DBB1B670C9B00F6FB9B /* Internal */,
+				53260DBA1B670C9200F6FB9B /* External */,
 				53260D9D1B670AED00F6FB9B /* Main.storyboard */,
 				53260DA01B670AED00F6FB9B /* Images.xcassets */,
 				53260DA21B670AED00F6FB9B /* LaunchScreen.xib */,
@@ -91,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				53260D981B670AED00F6FB9B /* Info.plist */,
+				53260DC91B670DCE00F6FB9B /* AFNetworkingWithMantle-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +123,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		53260DBA1B670C9200F6FB9B /* External */ = {
+			isa = PBXGroup;
+			children = (
+				53260DC31B670D5500F6FB9B /* API */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		53260DBB1B670C9B00F6FB9B /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				53260D9B1B670AED00F6FB9B /* ViewController.swift */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+		53260DBC1B670CA600F6FB9B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				53260D991B670AED00F6FB9B /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		53260DC31B670D5500F6FB9B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				53260DCE1B670E2400F6FB9B /* APIController */,
+				53260DC41B670D5500F6FB9B /* APIConstants */,
+				53260DC61B670D5500F6FB9B /* APIModels */,
+				53260DC71B670D5500F6FB9B /* APIRequests */,
+				53260DC81B670D5500F6FB9B /* APIResponses */,
+			);
+			name = API;
+			path = External/API;
+			sourceTree = "<group>";
+		};
+		53260DC41B670D5500F6FB9B /* APIConstants */ = {
+			isa = PBXGroup;
+			children = (
+				53260DCC1B670DF600F6FB9B /* APIConstants.swift */,
+			);
+			path = APIConstants;
+			sourceTree = "<group>";
+		};
+		53260DC61B670D5500F6FB9B /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		53260DC71B670D5500F6FB9B /* APIRequests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIRequests;
+			sourceTree = "<group>";
+		};
+		53260DC81B670D5500F6FB9B /* APIResponses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIResponses;
+			sourceTree = "<group>";
+		};
+		53260DCE1B670E2400F6FB9B /* APIController */ = {
+			isa = PBXGroup;
+			children = (
+				53260DCF1B670E2E00F6FB9B /* APIControllers.swift */,
+			);
+			path = APIController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53260DB31B670AED00F6FB9B /* Build configuration list for PBXNativeTarget "AFNetworkingWithMantle" */;
 			buildPhases = (
+				B30CD4F533B98744D95FA9FD /* Check Pods Manifest.lock */,
 				53260D901B670AED00F6FB9B /* Sources */,
 				53260D911B670AED00F6FB9B /* Frameworks */,
 				53260D921B670AED00F6FB9B /* Resources */,
+				99116051007DFEF4EB4413C5 /* Embed Pods Frameworks */,
+				031079F7F59FE71C4AE4D232 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,24 +219,6 @@
 			productName = AFNetworkingWithMantle;
 			productReference = 53260D941B670AED00F6FB9B /* AFNetworkingWithMantle.app */;
 			productType = "com.apple.product-type.application";
-		};
-		53260DA81B670AED00F6FB9B /* AFNetworkingWithMantleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 53260DB61B670AED00F6FB9B /* Build configuration list for PBXNativeTarget "AFNetworkingWithMantleTests" */;
-			buildPhases = (
-				53260DA51B670AED00F6FB9B /* Sources */,
-				53260DA61B670AED00F6FB9B /* Frameworks */,
-				53260DA71B670AED00F6FB9B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				53260DAB1B670AED00F6FB9B /* PBXTargetDependency */,
-			);
-			name = AFNetworkingWithMantleTests;
-			productName = AFNetworkingWithMantleTests;
-			productReference = 53260DA91B670AED00F6FB9B /* AFNetworkingWithMantleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -161,10 +231,6 @@
 				TargetAttributes = {
 					53260D931B670AED00F6FB9B = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					53260DA81B670AED00F6FB9B = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 53260D931B670AED00F6FB9B;
 					};
 				};
 			};
@@ -182,7 +248,6 @@
 			projectRoot = "";
 			targets = (
 				53260D931B670AED00F6FB9B /* AFNetworkingWithMantle */,
-				53260DA81B670AED00F6FB9B /* AFNetworkingWithMantleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,42 +263,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53260DA71B670AED00F6FB9B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031079F7F59FE71C4AE4D232 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		99116051007DFEF4EB4413C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B30CD4F533B98744D95FA9FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53260D901B670AED00F6FB9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53260DD01B670E2E00F6FB9B /* APIControllers.swift in Sources */,
+				53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */,
 				53260D9C1B670AED00F6FB9B /* ViewController.swift in Sources */,
 				53260D9A1B670AED00F6FB9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53260DA51B670AED00F6FB9B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53260DB01B670AED00F6FB9B /* AFNetworkingWithMantleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		53260DAB1B670AED00F6FB9B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 53260D931B670AED00F6FB9B /* AFNetworkingWithMantle */;
-			targetProxy = 53260DAA1B670AED00F6FB9B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		53260D9D1B670AED00F6FB9B /* Main.storyboard */ = {
@@ -338,6 +430,7 @@
 		};
 		53260DB41B670AED00F6FB9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CB08570D0A3B89A618E219 /* Pods-AFNetworkingWithMantle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFNetworkingWithMantle/Info.plist;
@@ -348,45 +441,12 @@
 		};
 		53260DB51B670AED00F6FB9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D0E0F558A69BEE96AED2125 /* Pods-AFNetworkingWithMantle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFNetworkingWithMantle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		53260DB71B670AED00F6FB9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AFNetworkingWithMantleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworkingWithMantle.app/AFNetworkingWithMantle";
-			};
-			name = Debug;
-		};
-		53260DB81B670AED00F6FB9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AFNetworkingWithMantleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworkingWithMantle.app/AFNetworkingWithMantle";
 			};
 			name = Release;
 		};
@@ -409,14 +469,7 @@
 				53260DB51B670AED00F6FB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		53260DB61B670AED00F6FB9B /* Build configuration list for PBXNativeTarget "AFNetworkingWithMantleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				53260DB71B670AED00F6FB9B /* Debug */,
-				53260DB81B670AED00F6FB9B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D211582E-5B56-414E-B026-12797DAD12BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AFNetworkingWithMantle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E0CEA494373E908DB25008A190020224D1168FC5</key>
+		<string>https://github.com/hoanganh6491/ResearchNetworking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AFNetworkingWithMantle/AFNetworkingWithMantle.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E0CEA494373E908DB25008A190020224D1168FC5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hoanganh6491/ResearchNetworking.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E0CEA494373E908DB25008A190020224D1168FC5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0CEA494373E908DB25008A190020224D1168FC5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ResearchNetworking</string>
+		</dict>
+	</array>
+</dict>
+</plist>

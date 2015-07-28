@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var tfURLInput: UITextField!
+    @IBOutlet weak var btnRequestStart: UIButton!
+    
+    @IBOutlet weak var txtvReturnResponse: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //MARK: 
+    @IBAction func btnRequestStartDidTap(sender: AnyObject) {
+    }
 
 }
 
