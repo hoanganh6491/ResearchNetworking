@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WBY-wU-O1S">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://www.json-generator.com/api/json/get/ckgFDjiqaa?indent=2" borderStyle="line" placeholder="http://www.json-generator.com/api/json/get/ckgFDjiqaa?indent=2" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WBY-wU-O1S">
                                 <rect key="frame" x="16" y="145" width="502" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="P3K-d2-EKK"/>

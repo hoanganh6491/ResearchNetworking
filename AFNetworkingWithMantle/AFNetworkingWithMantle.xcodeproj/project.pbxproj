@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53260D9A1B670AED00F6FB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260D991B670AED00F6FB9B /* AppDelegate.swift */; };
-		53260D9C1B670AED00F6FB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260D9B1B670AED00F6FB9B /* ViewController.swift */; };
-		53260D9F1B670AED00F6FB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53260D9D1B670AED00F6FB9B /* Main.storyboard */; };
 		53260DA11B670AED00F6FB9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53260DA01B670AED00F6FB9B /* Images.xcassets */; };
-		53260DA41B670AED00F6FB9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53260DA21B670AED00F6FB9B /* LaunchScreen.xib */; };
 		53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DCC1B670DF600F6FB9B /* APIConstants.swift */; };
 		53260DD01B670E2E00F6FB9B /* APIControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DCF1B670E2E00F6FB9B /* APIControllers.swift */; };
+		53260DD61B6711B600F6FB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DD51B6711B600F6FB9B /* AppDelegate.swift */; };
+		53260DD81B6711C100F6FB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53260DD71B6711C100F6FB9B /* ViewController.swift */; };
+		53260DDA1B6711C900F6FB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53260DD91B6711C900F6FB9B /* Main.storyboard */; };
+		53260DDC1B6711D300F6FB9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53260DDB1B6711D300F6FB9B /* LaunchScreen.xib */; };
 		E33D26CFA89A0DB311CB75DB /* Pods_AFNetworkingWithMantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F6F77201F711788B4CFF8E /* Pods_AFNetworkingWithMantle.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -21,16 +21,16 @@
 		10F6F77201F711788B4CFF8E /* Pods_AFNetworkingWithMantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworkingWithMantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53260D941B670AED00F6FB9B /* AFNetworkingWithMantle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingWithMantle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53260D981B670AED00F6FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53260D991B670AED00F6FB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53260D9B1B670AED00F6FB9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53260D9E1B670AED00F6FB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53260DA01B670AED00F6FB9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		53260DA31B670AED00F6FB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		53260DAE1B670AED00F6FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53260DAF1B670AED00F6FB9B /* AFNetworkingWithMantleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingWithMantleTests.swift; sourceTree = "<group>"; };
 		53260DC91B670DCE00F6FB9B /* AFNetworkingWithMantle-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingWithMantle-Header.h"; sourceTree = "<group>"; };
 		53260DCC1B670DF600F6FB9B /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		53260DCF1B670E2E00F6FB9B /* APIControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIControllers.swift; sourceTree = "<group>"; };
+		53260DD51B6711B600F6FB9B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppDelegate/AppDelegate.swift; sourceTree = "<group>"; };
+		53260DD71B6711C100F6FB9B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Internal/ClassViewControllers/ViewController.swift; sourceTree = "<group>"; };
+		53260DD91B6711C900F6FB9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Internal/InterfaceBuilder/Storyboard/Main.storyboard; sourceTree = "<group>"; };
+		53260DDB1B6711D300F6FB9B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Internal/InterfaceBuilder/Xibs/LaunchScreen.xib; sourceTree = "<group>"; };
 		6D0E0F558A69BEE96AED2125 /* Pods-AFNetworkingWithMantle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.release.xcconfig"; sourceTree = "<group>"; };
 		C1CB08570D0A3B89A618E219 /* Pods-AFNetworkingWithMantle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingWithMantle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingWithMantle/Pods-AFNetworkingWithMantle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,7 @@
 				53260DBC1B670CA600F6FB9B /* AppDelegate */,
 				53260DBB1B670C9B00F6FB9B /* Internal */,
 				53260DBA1B670C9200F6FB9B /* External */,
-				53260D9D1B670AED00F6FB9B /* Main.storyboard */,
 				53260DA01B670AED00F6FB9B /* Images.xcassets */,
-				53260DA21B670AED00F6FB9B /* LaunchScreen.xib */,
 				53260D971B670AED00F6FB9B /* Supporting Files */,
 			);
 			path = AFNetworkingWithMantle;
@@ -134,7 +132,8 @@
 		53260DBB1B670C9B00F6FB9B /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				53260D9B1B670AED00F6FB9B /* ViewController.swift */,
+				53260DD41B67115200F6FB9B /* ClassViewControllers */,
+				53260DD11B67112600F6FB9B /* InterfaceBuilder */,
 			);
 			name = Internal;
 			sourceTree = "<group>";
@@ -142,7 +141,7 @@
 		53260DBC1B670CA600F6FB9B /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				53260D991B670AED00F6FB9B /* AppDelegate.swift */,
+				53260DD51B6711B600F6FB9B /* AppDelegate.swift */,
 			);
 			name = AppDelegate;
 			sourceTree = "<group>";
@@ -195,6 +194,39 @@
 				53260DCF1B670E2E00F6FB9B /* APIControllers.swift */,
 			);
 			path = APIController;
+			sourceTree = "<group>";
+		};
+		53260DD11B67112600F6FB9B /* InterfaceBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				53260DD31B67113600F6FB9B /* Xibs */,
+				53260DD21B67113100F6FB9B /* Storyboard */,
+			);
+			name = InterfaceBuilder;
+			sourceTree = "<group>";
+		};
+		53260DD21B67113100F6FB9B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				53260DD91B6711C900F6FB9B /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		53260DD31B67113600F6FB9B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				53260DDB1B6711D300F6FB9B /* LaunchScreen.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		53260DD41B67115200F6FB9B /* ClassViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53260DD71B6711C100F6FB9B /* ViewController.swift */,
+			);
+			name = ClassViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,9 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53260D9F1B670AED00F6FB9B /* Main.storyboard in Resources */,
-				53260DA41B670AED00F6FB9B /* LaunchScreen.xib in Resources */,
 				53260DA11B670AED00F6FB9B /* Images.xcassets in Resources */,
+				53260DDC1B6711D300F6FB9B /* LaunchScreen.xib in Resources */,
+				53260DDA1B6711C900F6FB9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,33 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53260DD81B6711C100F6FB9B /* ViewController.swift in Sources */,
 				53260DD01B670E2E00F6FB9B /* APIControllers.swift in Sources */,
 				53260DCD1B670DF600F6FB9B /* APIConstants.swift in Sources */,
-				53260D9C1B670AED00F6FB9B /* ViewController.swift in Sources */,
-				53260D9A1B670AED00F6FB9B /* AppDelegate.swift in Sources */,
+				53260DD61B6711B600F6FB9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		53260D9D1B670AED00F6FB9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53260D9E1B670AED00F6FB9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		53260DA21B670AED00F6FB9B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53260DA31B670AED00F6FB9B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		53260DB11B670AED00F6FB9B /* Debug */ = {

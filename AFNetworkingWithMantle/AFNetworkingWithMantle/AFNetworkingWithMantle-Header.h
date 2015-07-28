@@ -9,5 +9,6 @@
 #ifndef AFNetworkingWithMantle_AFNetworkingWithMantle_Header_h
 #define AFNetworkingWithMantle_AFNetworkingWithMantle_Header_h
 
+#import "AFNetworking.h"
 
 #endif
